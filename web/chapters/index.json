@@ -43,6 +43,32 @@
    "cached": []
   },
   {
+   "id": "1_samuel",
+   "name": "1 Samuel",
+   "chapters": 31,
+   "cached": []
+  },
+  {
+   "id": "2_samuel",
+   "name": "2 Samuel",
+   "chapters": 24,
+   "cached": []
+  },
+  {
+   "id": "1_kings",
+   "name": "1 Kings",
+   "chapters": 22,
+   "cached": [
+    1
+   ]
+  },
+  {
+   "id": "2_kings",
+   "name": "2 Kings",
+   "chapters": 25,
+   "cached": []
+  },
+  {
    "id": "isaiah",
    "name": "Isaiah",
    "chapters": 66,
@@ -135,6 +161,18 @@
    "cached": []
   },
   {
+   "id": "1_chronicles",
+   "name": "1 Chronicles",
+   "chapters": 29,
+   "cached": []
+  },
+  {
+   "id": "2_chronicles",
+   "name": "2 Chronicles",
+   "chapters": 36,
+   "cached": []
+  },
+  {
    "id": "psalms",
    "name": "Psalms",
    "chapters": 99,
@@ -188,6 +226,18 @@
    "id": "daniel",
    "name": "Daniel",
    "chapters": 12,
+   "cached": []
+  },
+  {
+   "id": "ezra",
+   "name": "Ezra",
+   "chapters": 10,
+   "cached": []
+  },
+  {
+   "id": "nehemiah",
+   "name": "Nehemiah",
+   "chapters": 13,
    "cached": []
   }
  ]

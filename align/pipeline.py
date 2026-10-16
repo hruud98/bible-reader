@@ -27,41 +27,50 @@ INDEX = os.path.join(CHAPTERS, "index.json")
 UA = {"User-Agent": "Mozilla/5.0 (bible-reader)"}
 
 # Catalog of books that have Mechon-Mamre audio. Each entry:
-#   (book id/slug, display name, mechon number, biblehub slug, chapter count)
-# Audio URL is https://mechon-mamre.org/mp3/t<NN><CC>.mp3 (2-digit book+chapter).
-# All of these are single books with matching chapter numbers in both sources.
+#   (book id/slug, display name, mechon code, biblehub slug, chapter count)
+# Audio URL is https://mechon-mamre.org/mp3/t<code><CC>.mp3 (CC = 2-digit
+# chapter). Two-part books use a letter-suffixed code (e.g. 1 Kings = "09a").
+# All of these are single BibleHub books with matching chapter numbers.
 BOOKS = [
-    ("genesis", "Genesis", 1, "genesis", 50),
-    ("exodus", "Exodus", 2, "exodus", 40),
-    ("leviticus", "Leviticus", 3, "leviticus", 27),
-    ("numbers", "Numbers", 4, "numbers", 36),
-    ("deuteronomy", "Deuteronomy", 5, "deuteronomy", 34),
-    ("joshua", "Joshua", 6, "joshua", 24),
-    ("judges", "Judges", 7, "judges", 21),
-    ("isaiah", "Isaiah", 10, "isaiah", 66),
-    ("jeremiah", "Jeremiah", 11, "jeremiah", 52),
-    ("ezekiel", "Ezekiel", 12, "ezekiel", 48),
-    ("hosea", "Hosea", 13, "hosea", 14),
-    ("joel", "Joel", 14, "joel", 4),
-    ("amos", "Amos", 15, "amos", 9),
-    ("obadiah", "Obadiah", 16, "obadiah", 1),
-    ("jonah", "Jonah", 17, "jonah", 4),
-    ("micah", "Micah", 18, "micah", 7),
-    ("nahum", "Nahum", 19, "nahum", 3),
-    ("habakkuk", "Habakkuk", 20, "habakkuk", 3),
-    ("zephaniah", "Zephaniah", 21, "zephaniah", 3),
-    ("haggai", "Haggai", 22, "haggai", 2),
-    ("zechariah", "Zechariah", 23, "zechariah", 14),
-    ("malachi", "Malachi", 24, "malachi", 3),
-    ("psalms", "Psalms", 26, "psalms", 99),
-    ("job", "Job", 27, "job", 42),
-    ("proverbs", "Proverbs", 28, "proverbs", 31),
-    ("ruth", "Ruth", 29, "ruth", 4),
-    ("song_of_songs", "Song of Songs", 30, "songs", 8),
-    ("ecclesiastes", "Ecclesiastes", 31, "ecclesiastes", 12),
-    ("lamentations", "Lamentations", 32, "lamentations", 5),
-    ("esther", "Esther", 33, "esther", 10),
-    ("daniel", "Daniel", 34, "daniel", 12),
+    ("genesis", "Genesis", "01", "genesis", 50),
+    ("exodus", "Exodus", "02", "exodus", 40),
+    ("leviticus", "Leviticus", "03", "leviticus", 27),
+    ("numbers", "Numbers", "04", "numbers", 36),
+    ("deuteronomy", "Deuteronomy", "05", "deuteronomy", 34),
+    ("joshua", "Joshua", "06", "joshua", 24),
+    ("judges", "Judges", "07", "judges", 21),
+    ("1_samuel", "1 Samuel", "08a", "1_samuel", 31),
+    ("2_samuel", "2 Samuel", "08b", "2_samuel", 24),
+    ("1_kings", "1 Kings", "09a", "1_kings", 22),
+    ("2_kings", "2 Kings", "09b", "2_kings", 25),
+    ("isaiah", "Isaiah", "10", "isaiah", 66),
+    ("jeremiah", "Jeremiah", "11", "jeremiah", 52),
+    ("ezekiel", "Ezekiel", "12", "ezekiel", 48),
+    ("hosea", "Hosea", "13", "hosea", 14),
+    ("joel", "Joel", "14", "joel", 4),
+    ("amos", "Amos", "15", "amos", 9),
+    ("obadiah", "Obadiah", "16", "obadiah", 1),
+    ("jonah", "Jonah", "17", "jonah", 4),
+    ("micah", "Micah", "18", "micah", 7),
+    ("nahum", "Nahum", "19", "nahum", 3),
+    ("habakkuk", "Habakkuk", "20", "habakkuk", 3),
+    ("zephaniah", "Zephaniah", "21", "zephaniah", 3),
+    ("haggai", "Haggai", "22", "haggai", 2),
+    ("zechariah", "Zechariah", "23", "zechariah", 14),
+    ("malachi", "Malachi", "24", "malachi", 3),
+    ("1_chronicles", "1 Chronicles", "25a", "1_chronicles", 29),
+    ("2_chronicles", "2 Chronicles", "25b", "2_chronicles", 36),
+    ("psalms", "Psalms", "26", "psalms", 99),
+    ("job", "Job", "27", "job", 42),
+    ("proverbs", "Proverbs", "28", "proverbs", 31),
+    ("ruth", "Ruth", "29", "ruth", 4),
+    ("song_of_songs", "Song of Songs", "30", "songs", 8),
+    ("ecclesiastes", "Ecclesiastes", "31", "ecclesiastes", 12),
+    ("lamentations", "Lamentations", "32", "lamentations", 5),
+    ("esther", "Esther", "33", "esther", 10),
+    ("daniel", "Daniel", "34", "daniel", 12),
+    ("ezra", "Ezra", "35a", "ezra", 10),
+    ("nehemiah", "Nehemiah", "35b", "nehemiah", 13),
 ]
 BOOK_BY_ID = {b[0]: b for b in BOOKS}
 
@@ -121,8 +130,8 @@ def scrape_interlinear(bh_slug, chapter):
 # --------------------------------------------------------------------------- #
 # Audio download (Mechon-Mamre) -> seek-accurate WAV
 # --------------------------------------------------------------------------- #
-def download_audio(mechon_num, chapter, out_wav):
-    url = f"https://mechon-mamre.org/mp3/t{mechon_num:02d}{chapter:02d}.mp3"
+def download_audio(mechon_code, chapter, out_wav):
+    url = f"https://mechon-mamre.org/mp3/t{mechon_code}{chapter:02d}.mp3"
     tmp_mp3 = out_wav + ".src.mp3"
     req = urllib.request.Request(url, headers=UA)
     try:
