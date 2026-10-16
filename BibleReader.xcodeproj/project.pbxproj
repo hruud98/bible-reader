@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000011A0000000000001 /* BibleReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000001A0000000000001 /* BibleReaderApp.swift */; };
+		A1000012A0000000000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002A0000000000001 /* Models.swift */; };
+		A1000013A0000000000001 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000003A0000000000001 /* AudioManager.swift */; };
+		A1000014A0000000000001 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004A0000000000001 /* FlowLayout.swift */; };
+		A1000015A0000000000001 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000005A0000000000001 /* ReaderView.swift */; };
+		A1000016A0000000000001 /* WordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006A0000000000001 /* WordView.swift */; };
+		A1000017A0000000000001 /* jonah1.json in Resources */ = {isa = PBXBuildFile; fileRef = A1000007A0000000000001 /* jonah1.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1000001A0000000000001 /* BibleReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleReaderApp.swift; sourceTree = "<group>"; };
+		A1000002A0000000000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A1000003A0000000000001 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		A1000004A0000000000001 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		A1000005A0000000000001 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		A1000006A0000000000001 /* WordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordView.swift; sourceTree = "<group>"; };
+		A1000007A0000000000001 /* jonah1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jonah1.json; sourceTree = "<group>"; };
+		A1000008A0000000000001 /* BibleReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1000020A0000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1000030A0000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A1000031A0000000000001 /* BibleReader */,
+				A1000032A0000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1000031A0000000000001 /* BibleReader */ = {
+			isa = PBXGroup;
+			children = (
+				A1000001A0000000000001 /* BibleReaderApp.swift */,
+				A1000005A0000000000001 /* ReaderView.swift */,
+				A1000006A0000000000001 /* WordView.swift */,
+				A1000002A0000000000001 /* Models.swift */,
+				A1000003A0000000000001 /* AudioManager.swift */,
+				A1000004A0000000000001 /* FlowLayout.swift */,
+				A1000040A0000000000001 /* Resources */,
+			);
+			path = BibleReader;
+			sourceTree = "<group>";
+		};
+		A1000040A0000000000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1000007A0000000000001 /* jonah1.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1000032A0000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1000008A0000000000001 /* BibleReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1000050A0000000000001 /* BibleReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1000060A0000000000001 /* Build configuration list for PBXNativeTarget "BibleReader" */;
+			buildPhases = (
+				A1000051A0000000000001 /* Sources */,
+				A1000020A0000000000001 /* Frameworks */,
+				A1000052A0000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BibleReader;
+			productName = BibleReader;
+			productReference = A1000008A0000000000001 /* BibleReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1000070A0000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A1000050A0000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A1000071A0000000000001 /* Build configuration list for PBXProject "BibleReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1000030A0000000000001;
+			productRefGroup = A1000032A0000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1000050A0000000000001 /* BibleReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1000052A0000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000017A0000000000001 /* jonah1.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1000051A0000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000011A0000000000001 /* BibleReaderApp.swift in Sources */,
+				A1000015A0000000000001 /* ReaderView.swift in Sources */,
+				A1000016A0000000000001 /* WordView.swift in Sources */,
+				A1000012A0000000000001 /* Models.swift in Sources */,
+				A1000013A0000000000001 /* AudioManager.swift in Sources */,
+				A1000014A0000000000001 /* FlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1000080A0000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1000081A0000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1000082A0000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jonah";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BibleReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1000083A0000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jonah";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BibleReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1000071A0000000000001 /* Build configuration list for PBXProject "BibleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000080A0000000000001 /* Debug */,
+				A1000081A0000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1000060A0000000000001 /* Build configuration list for PBXNativeTarget "BibleReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000082A0000000000001 /* Debug */,
+				A1000083A0000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1000070A0000000000001 /* Project object */;
+}

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+align/.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Generated / large audio artifacts
+align/jonah1.mp3
+align/onsets.txt
+web/jonah1.wav
+web/jonah1.m4a
+
+# Editor
+.vscode/

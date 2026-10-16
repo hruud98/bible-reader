@@ -1,0 +1,2154 @@
+[
+ {
+  "verse": 1,
+  "heb": "וַֽיְהִי֙",
+  "translit": "way·hî",
+  "gloss": "And came",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 1,
+  "heb": "דְּבַר־",
+  "translit": "də·ḇar-",
+  "gloss": "the word",
+  "parse": "N-msc",
+  "parseFull": "Noun - masculine singular construct"
+ },
+ {
+  "verse": 1,
+  "heb": "יְהוָ֔ה",
+  "translit": "Yah·weh,",
+  "gloss": "of YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 1,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "to",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 1,
+  "heb": "יוֹנָ֥ה",
+  "translit": "yō·w·nāh",
+  "gloss": "Jonah",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 1,
+  "heb": "בֶן־",
+  "translit": "ḇen-",
+  "gloss": "son",
+  "parse": "N-msc",
+  "parseFull": "Noun - masculine singular construct"
+ },
+ {
+  "verse": 1,
+  "heb": "אֲמִתַּ֖י",
+  "translit": "’ă·mit·tay",
+  "gloss": "of Amittai",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 1,
+  "heb": "לֵאמֹֽר׃",
+  "translit": "lê·mōr.",
+  "gloss": "saying",
+  "parse": "Prep-l | V-Qal-Inf",
+  "parseFull": "Preposition-l | Verb - Qal - Infinitive construct"
+ },
+ {
+  "verse": 2,
+  "heb": "ק֠וּם",
+  "translit": "qūm",
+  "gloss": "Arise",
+  "parse": "V-Qal-Imp-ms",
+  "parseFull": "Verb - Qal - Imperative - masculine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "לֵ֧ךְ",
+  "translit": "lêḵ",
+  "gloss": "go",
+  "parse": "V-Qal-Imp-ms",
+  "parseFull": "Verb - Qal - Imperative - masculine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "to",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 2,
+  "heb": "נִֽינְוֵ֛ה",
+  "translit": "nî·nə·wêh",
+  "gloss": "Nineveh",
+  "parse": "N-proper-fs",
+  "parseFull": "Noun - proper - feminine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "הָעִ֥יר",
+  "translit": "hā·‘îr",
+  "gloss": "the city",
+  "parse": "Art | N-fs",
+  "parseFull": "Article | Noun - feminine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "הַגְּדוֹלָ֖ה",
+  "translit": "hag·gə·ḏō·w·lāh",
+  "gloss": "great",
+  "parse": "Art | Adj-fs",
+  "parseFull": "Article | Adjective - feminine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "וּקְרָ֣א",
+  "translit": "ū·qə·rā",
+  "gloss": "and call out",
+  "parse": "Conj-w | V-Qal-Imp-ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Imperative - masculine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "עָלֶ֑יהָ",
+  "translit": "‘ā·le·hā;",
+  "gloss": "against it",
+  "parse": "Prep | 3fs",
+  "parseFull": "Preposition | third person feminine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "כִּֽי־",
+  "translit": "kî-",
+  "gloss": "for",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 2,
+  "heb": "עָלְתָ֥ה",
+  "translit": "‘ā·lə·ṯāh",
+  "gloss": "has come up",
+  "parse": "V-Qal-Perf-3fs",
+  "parseFull": "Verb - Qal - Perfect - third person feminine singular"
+ },
+ {
+  "verse": 2,
+  "heb": "רָעָתָ֖ם",
+  "translit": "rā·‘ā·ṯām",
+  "gloss": "their evil",
+  "parse": "N-fsc | 3mp",
+  "parseFull": "Noun - feminine singular construct | third person masculine plural"
+ },
+ {
+  "verse": 2,
+  "heb": "לְפָנָֽי׃",
+  "translit": "lə·p̄ā·nāy.",
+  "gloss": "before My face",
+  "parse": "Prep-l | N-mpc | 1cs",
+  "parseFull": "Preposition-l | Noun - masculine plural construct | first person common singular"
+ },
+ {
+  "verse": 3,
+  "heb": "וַיָּ֤קָם",
+  "translit": "way·yā·qām",
+  "gloss": "And arose",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "יוֹנָה֙",
+  "translit": "yō·w·nāh",
+  "gloss": "Jonah",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "לִבְרֹ֣חַ",
+  "translit": "liḇ·rō·aḥ",
+  "gloss": "to flee",
+  "parse": "Prep-l | V-Qal-Inf",
+  "parseFull": "Preposition-l | Verb - Qal - Infinitive construct"
+ },
+ {
+  "verse": 3,
+  "heb": "תַּרְשִׁ֔ישָׁה",
+  "translit": "tar·šî·šāh,",
+  "gloss": "to Tarshish",
+  "parse": "N-proper-fs | 3fs",
+  "parseFull": "Noun - proper - feminine singular | third person feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "מִלִּפְנֵ֖י",
+  "translit": "mil·lip̄·nê",
+  "gloss": "away from the face",
+  "parse": "Prep-m, Prep-l | N-cpc",
+  "parseFull": "Preposition-m, Preposition-l | Noun - common plural construct"
+ },
+ {
+  "verse": 3,
+  "heb": "יְהוָ֑ה",
+  "translit": "Yah·weh;",
+  "gloss": "of YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "וַיֵּ֨רֶד",
+  "translit": "way·yê·reḏ",
+  "gloss": "and he went down",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "יָפ֜וֹ",
+  "translit": "yā·p̄ōw",
+  "gloss": "[to] Joppa",
+  "parse": "N-proper-fs",
+  "parseFull": "Noun - proper - feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "וַיִּמְצָ֥א",
+  "translit": "way·yim·ṣā",
+  "gloss": "and found",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "אָנִיָּ֣ה׀",
+  "translit": "’ā·nî·yāh",
+  "gloss": "a ship",
+  "parse": "N-fs",
+  "parseFull": "Noun - feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "בָּאָ֣ה",
+  "translit": "bā·’āh",
+  "gloss": "going",
+  "parse": "V-Qal-Prtcpl-fs",
+  "parseFull": "Verb - Qal - Participle - feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "תַרְשִׁ֗ישׁ",
+  "translit": "ṯar·šîš,",
+  "gloss": "[to] Tarshish",
+  "parse": "N-proper-fs",
+  "parseFull": "Noun - proper - feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "וַיִּתֵּ֨ן",
+  "translit": "way·yit·tên",
+  "gloss": "and he paid",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "שְׂכָרָ֜הּ",
+  "translit": "śə·ḵā·rāh",
+  "gloss": "its fare",
+  "parse": "N-msc | 3fs",
+  "parseFull": "Noun - masculine singular construct | third person feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "וַיֵּ֤רֶד",
+  "translit": "way·yê·reḏ",
+  "gloss": "and went down",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "בָּהּ֙",
+  "translit": "bāh",
+  "gloss": "into it",
+  "parse": "Prep-b | 3fs",
+  "parseFull": "Preposition | third person feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "לָב֤וֹא",
+  "translit": "lā·ḇō·w",
+  "gloss": "to go",
+  "parse": "Prep-l | V-Qal-Inf",
+  "parseFull": "Preposition-l | Verb - Qal - Infinitive construct"
+ },
+ {
+  "verse": 3,
+  "heb": "עִמָּהֶם֙",
+  "translit": "‘im·mā·hem",
+  "gloss": "with them",
+  "parse": "Prep | 3mp",
+  "parseFull": "Preposition | third person masculine plural"
+ },
+ {
+  "verse": 3,
+  "heb": "תַּרְשִׁ֔ישָׁה",
+  "translit": "tar·šî·šāh,",
+  "gloss": "to Tarshish",
+  "parse": "N-proper-fs | 3fs",
+  "parseFull": "Noun - proper - feminine singular | third person feminine singular"
+ },
+ {
+  "verse": 3,
+  "heb": "מִלִּפְנֵ֖י",
+  "translit": "mil·lip̄·nê",
+  "gloss": "away from the face",
+  "parse": "Prep-m, Prep-l | N-cpc",
+  "parseFull": "Preposition-m, Preposition-l | Noun - common plural construct"
+ },
+ {
+  "verse": 3,
+  "heb": "יְהוָֽה׃",
+  "translit": "Yah·weh.",
+  "gloss": "of YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "וַֽיהוָ֗ה",
+  "translit": "Yah·weh",
+  "gloss": "And YHWH",
+  "parse": "Conj-w | N-proper-ms",
+  "parseFull": "Conjunctive waw | Noun - proper - masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "הֵטִ֤יל",
+  "translit": "hê·ṭîl",
+  "gloss": "hurled",
+  "parse": "V-Hifil-Perf-3ms",
+  "parseFull": "Verb - Hifil - Perfect - third person masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "רֽוּחַ־",
+  "translit": "rū·aḥ-",
+  "gloss": "a wind",
+  "parse": "N-cs",
+  "parseFull": "Noun - common singular"
+ },
+ {
+  "verse": 4,
+  "heb": "גְּדוֹלָה֙",
+  "translit": "gə·ḏō·w·lāh",
+  "gloss": "great",
+  "parse": "Adj-fs",
+  "parseFull": "Adjective - feminine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "toward",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 4,
+  "heb": "הַיָּ֔ם",
+  "translit": "hay·yām,",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "וַיְהִ֥י",
+  "translit": "way·hî",
+  "gloss": "and there was",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "סַֽעַר־",
+  "translit": "sa·‘ar-",
+  "gloss": "a tempest",
+  "parse": "N-ms",
+  "parseFull": "Noun - masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "גָּד֖וֹל",
+  "translit": "gā·ḏō·wl",
+  "gloss": "mighty",
+  "parse": "Adj-ms",
+  "parseFull": "Adjective - masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "בַּיָּ֑ם",
+  "translit": "bay·yām;",
+  "gloss": "on the sea",
+  "parse": "Prep-b, Art | N-ms",
+  "parseFull": "Preposition-b, Article | Noun - masculine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "וְהָ֣אֳנִיָּ֔ה",
+  "translit": "wə·hā·’o·nî·yāh,",
+  "gloss": "and the ship",
+  "parse": "Conj-w, Art | N-fs",
+  "parseFull": "Conjunctive waw, Article | Noun - feminine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "חִשְּׁבָ֖ה",
+  "translit": "ḥiš·šə·ḇāh",
+  "gloss": "was thinking",
+  "parse": "V-Piel-Perf-3fs",
+  "parseFull": "Verb - Piel - Perfect - third person feminine singular"
+ },
+ {
+  "verse": 4,
+  "heb": "לְהִשָּׁבֵֽר׃",
+  "translit": "lə·hiš·šā·ḇêr.",
+  "gloss": "to be broken apart",
+  "parse": "Prep-l | V-Nifal-Inf",
+  "parseFull": "Preposition-l | Verb - Nifal - Infinitive construct"
+ },
+ {
+  "verse": 5,
+  "heb": "וַיִּֽירְא֣וּ",
+  "translit": "way·yî·rə·’ū",
+  "gloss": "And were afraid",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 5,
+  "heb": "הַמַּלָּחִ֗ים",
+  "translit": "ham·mal·lā·ḥîm,",
+  "gloss": "the sailors",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 5,
+  "heb": "וַֽיִּזְעֲקוּ֮",
+  "translit": "way·yiz·‘ă·qū",
+  "gloss": "and cried out",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 5,
+  "heb": "אִ֣ישׁ",
+  "translit": "’îš",
+  "gloss": "each man",
+  "parse": "N-ms",
+  "parseFull": "Noun - masculine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "to",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 5,
+  "heb": "אֱלֹהָיו֒",
+  "translit": "’ĕ·lō·hāw",
+  "gloss": "his god",
+  "parse": "N-mpc | 3ms",
+  "parseFull": "Noun - masculine plural construct | third person masculine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "וַיָּטִ֨לוּ",
+  "translit": "way·yā·ṭi·lū",
+  "gloss": "and they threw",
+  "parse": "Conj-w | V-Hifil-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Hifil - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 5,
+  "heb": "אֶת־",
+  "translit": "’eṯ-",
+  "gloss": "-",
+  "parse": "DirObjM",
+  "parseFull": "Direct object marker"
+ },
+ {
+  "verse": 5,
+  "heb": "הַכֵּלִ֜ים",
+  "translit": "hak·kê·lîm",
+  "gloss": "the articles",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 5,
+  "heb": "אֲשֶׁ֤ר",
+  "translit": "’ă·šer",
+  "gloss": "that [were]",
+  "parse": "Pro-r",
+  "parseFull": "Pronoun - relative"
+ },
+ {
+  "verse": 5,
+  "heb": "בָּֽאֳנִיָּה֙",
+  "translit": "bā·’o·nî·yāh",
+  "gloss": "in the ship",
+  "parse": "Prep-b, Art | N-fs",
+  "parseFull": "Preposition-b, Article | Noun - feminine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "into",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 5,
+  "heb": "הַיָּ֔ם",
+  "translit": "hay·yām,",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "לְהָקֵ֖ל",
+  "translit": "lə·hā·qêl",
+  "gloss": "to lighten it",
+  "parse": "Prep-l | V-Hifil-Inf",
+  "parseFull": "Preposition-l | Verb - Hifil - Infinitive construct"
+ },
+ {
+  "verse": 5,
+  "heb": "מֵֽעֲלֵיהֶ֑ם",
+  "translit": "mê·‘ă·lê·hem;",
+  "gloss": "from them",
+  "parse": "Prep-m | 3mp",
+  "parseFull": "Preposition-m | third person masculine plural"
+ },
+ {
+  "verse": 5,
+  "heb": "וְיוֹנָ֗ה",
+  "translit": "wə·yō·w·nāh,",
+  "gloss": "and Jonah",
+  "parse": "Conj-w | N-proper-ms",
+  "parseFull": "Conjunctive waw | Noun - proper - masculine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "יָרַד֙",
+  "translit": "yā·raḏ",
+  "gloss": "had gone down",
+  "parse": "V-Qal-Perf-3ms",
+  "parseFull": "Verb - Qal - Perfect - third person masculine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "into",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 5,
+  "heb": "יַרְכְּתֵ֣י",
+  "translit": "yar·kə·ṯê",
+  "gloss": "the recesses",
+  "parse": "N-fdc",
+  "parseFull": "Noun - feminine dual construct"
+ },
+ {
+  "verse": 5,
+  "heb": "הַסְּפִינָ֔ה",
+  "translit": "has·sə·p̄î·nāh,",
+  "gloss": "of the ship",
+  "parse": "Art | N-fs",
+  "parseFull": "Article | Noun - feminine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "וַיִּשְׁכַּ֖ב",
+  "translit": "way·yiš·kaḇ",
+  "gloss": "and he had lain down",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 5,
+  "heb": "וַיֵּרָדַֽם׃",
+  "translit": "way·yê·rā·ḏam.",
+  "gloss": "and was deeply asleep",
+  "parse": "Conj-w | V-Nifal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Nifal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "וַיִּקְרַ֤ב",
+  "translit": "way·yiq·raḇ",
+  "gloss": "And came near",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "אֵלָיו֙",
+  "translit": "’ê·lāw",
+  "gloss": "to him",
+  "parse": "Prep | 3ms",
+  "parseFull": "Preposition | third person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "רַ֣ב",
+  "translit": "raḇ",
+  "gloss": "the chief",
+  "parse": "N-msc",
+  "parseFull": "Noun - masculine singular construct"
+ },
+ {
+  "verse": 6,
+  "heb": "הַחֹבֵ֔ל",
+  "translit": "ha·ḥō·ḇêl,",
+  "gloss": "pilot",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "וַיֹּ֥אמֶר",
+  "translit": "way·yō·mer",
+  "gloss": "and said",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "ל֖וֹ",
+  "translit": "lōw",
+  "gloss": "to him",
+  "parse": "Prep-l | 3ms",
+  "parseFull": "Preposition | third person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "מַה־",
+  "translit": "mah-",
+  "gloss": "How",
+  "parse": "Interrog",
+  "parseFull": "Interrogative"
+ },
+ {
+  "verse": 6,
+  "heb": "לְּךָ֣",
+  "translit": "lə·ḵā",
+  "gloss": "can you",
+  "parse": "Prep-l | 2ms",
+  "parseFull": "Preposition | second person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "נִרְדָּ֑ם",
+  "translit": "nir·dām;",
+  "gloss": "sleep",
+  "parse": "V-Nifal-Prtcpl-ms",
+  "parseFull": "Verb - Nifal - Participle - masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "ק֚וּם",
+  "translit": "qūm",
+  "gloss": "Stand up",
+  "parse": "V-Qal-Imp-ms",
+  "parseFull": "Verb - Qal - Imperative - masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "קְרָ֣א",
+  "translit": "qə·rā",
+  "gloss": "[and] call",
+  "parse": "V-Qal-Imp-ms",
+  "parseFull": "Verb - Qal - Imperative - masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "to",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 6,
+  "heb": "אֱלֹהֶ֔יךָ",
+  "translit": "’ĕ·lō·he·ḵā,",
+  "gloss": "your God",
+  "parse": "N-mpc | 2ms",
+  "parseFull": "Noun - masculine plural construct | second person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "אוּלַ֞י",
+  "translit": "’ū·lay",
+  "gloss": "perhaps",
+  "parse": "Adv",
+  "parseFull": "Adverb"
+ },
+ {
+  "verse": 6,
+  "heb": "יִתְעַשֵּׁ֧ת",
+  "translit": "yiṯ·‘aš·šêṯ",
+  "gloss": "will have consideration",
+  "parse": "V-Hitpael-Imperf-3ms",
+  "parseFull": "Verb - Hitpael - Imperfect - third person masculine singular"
+ },
+ {
+  "verse": 6,
+  "heb": "הָאֱלֹהִ֛ים",
+  "translit": "hā·’ĕ·lō·hîm",
+  "gloss": "your God",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 6,
+  "heb": "לָ֖נוּ",
+  "translit": "lā·nū",
+  "gloss": "for us",
+  "parse": "Prep-l | 1cp",
+  "parseFull": "Preposition | first person common plural"
+ },
+ {
+  "verse": 6,
+  "heb": "וְלֹ֥א",
+  "translit": "wə·lō",
+  "gloss": "and not",
+  "parse": "Conj-w | Adv-NegPrt",
+  "parseFull": "Conjunctive waw | Adverb - Negative particle"
+ },
+ {
+  "verse": 6,
+  "heb": "נֹאבֵֽד׃",
+  "translit": "nō·ḇêḏ.",
+  "gloss": "we will perish",
+  "parse": "V-Qal-Imperf-1cp",
+  "parseFull": "Verb - Qal - Imperfect - first person common plural"
+ },
+ {
+  "verse": 7,
+  "heb": "וַיֹּאמְר֞וּ",
+  "translit": "way·yō·mə·rū",
+  "gloss": "And they said",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 7,
+  "heb": "אִ֣ישׁ",
+  "translit": "’îš",
+  "gloss": "each man",
+  "parse": "N-ms",
+  "parseFull": "Noun - masculine singular"
+ },
+ {
+  "verse": 7,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "to",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 7,
+  "heb": "רֵעֵ֗הוּ",
+  "translit": "rê·‘ê·hū,",
+  "gloss": "his companion",
+  "parse": "N-msc | 3ms",
+  "parseFull": "Noun - masculine singular construct | third person masculine singular"
+ },
+ {
+  "verse": 7,
+  "heb": "לְכוּ֙",
+  "translit": "lə·ḵū",
+  "gloss": "Come",
+  "parse": "V-Qal-Imp-mp",
+  "parseFull": "Verb - Qal - Imperative - masculine plural"
+ },
+ {
+  "verse": 7,
+  "heb": "וְנַפִּ֣ילָה",
+  "translit": "wə·nap·pî·lāh",
+  "gloss": "and let us cast",
+  "parse": "Conj-w | V-Hifil-ConjImperf.Cohort-1cp",
+  "parseFull": "Conjunctive waw | Verb - Hifil - Conjunctive imperfect Cohortative - first person common plural"
+ },
+ {
+  "verse": 7,
+  "heb": "גֽוֹרָל֔וֹת",
+  "translit": "ḡō·w·rā·lō·wṯ,",
+  "gloss": "lots",
+  "parse": "N-mp",
+  "parseFull": "Noun - masculine plural"
+ },
+ {
+  "verse": 7,
+  "heb": "וְנֵ֣דְעָ֔ה",
+  "translit": "wə·nê·ḏə·‘āh,",
+  "gloss": "that we may know",
+  "parse": "Conj-w | V-Qal-ConjImperf.Cohort-1cp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Conjunctive imperfect Cohortative - first person common plural"
+ },
+ {
+  "verse": 7,
+  "heb": "בְּשֶׁלְּמִ֛י",
+  "translit": "bə·šel·lə·mî",
+  "gloss": "by whom",
+  "parse": "Prep-b, Pro-r | Interrog",
+  "parseFull": "Preposition-b, Pr | Interrogative"
+ },
+ {
+  "verse": 7,
+  "heb": "הָרָעָ֥ה",
+  "translit": "hā·rā·‘āh",
+  "gloss": "the evil",
+  "parse": "Art | Adj-fs",
+  "parseFull": "Article | Adjective - feminine singular"
+ },
+ {
+  "verse": 7,
+  "heb": "הַזֹּ֖את",
+  "translit": "haz·zōṯ",
+  "gloss": "this",
+  "parse": "Art | Pro-fs",
+  "parseFull": "Article | Pronoun - feminine singular"
+ },
+ {
+  "verse": 7,
+  "heb": "לָ֑נוּ",
+  "translit": "lā·nū;",
+  "gloss": "[is] upon us",
+  "parse": "Prep-l | 1cp",
+  "parseFull": "Preposition | first person common plural"
+ },
+ {
+  "verse": 7,
+  "heb": "וַיַּפִּ֙לוּ֙",
+  "translit": "way·yap·pi·lū",
+  "gloss": "and they cast",
+  "parse": "Conj-w | V-Hifil-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Hifil - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 7,
+  "heb": "גּֽוֹרָל֔וֹת",
+  "translit": "gō·w·rā·lō·wṯ,",
+  "gloss": "lots",
+  "parse": "N-mp",
+  "parseFull": "Noun - masculine plural"
+ },
+ {
+  "verse": 7,
+  "heb": "וַיִּפֹּ֥ל",
+  "translit": "way·yip·pōl",
+  "gloss": "and fell",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 7,
+  "heb": "הַגּוֹרָ֖ל",
+  "translit": "hag·gō·w·rāl",
+  "gloss": "the lot",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 7,
+  "heb": "עַל־",
+  "translit": "‘al-",
+  "gloss": "upon",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 7,
+  "heb": "יוֹנָֽה׃",
+  "translit": "yō·w·nāh.",
+  "gloss": "Jonah",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "וַיֹּאמְר֣וּ",
+  "translit": "way·yō·mə·rū",
+  "gloss": "And they said",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 8,
+  "heb": "אֵלָ֔יו",
+  "translit": "’ê·lāw,",
+  "gloss": "to him",
+  "parse": "Prep | 3ms",
+  "parseFull": "Preposition | third person masculine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "הַגִּידָה־",
+  "translit": "hag·gî·ḏāh-",
+  "gloss": "Declare",
+  "parse": "V-Hifil-Imp-ms | 3fs",
+  "parseFull": "Verb - Hifil - Imperative - masculine singular | third person feminine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "נָּ֣א",
+  "translit": "nā",
+  "gloss": "now",
+  "parse": "Interjection",
+  "parseFull": "Interjection"
+ },
+ {
+  "verse": 8,
+  "heb": "לָ֔נוּ",
+  "translit": "lā·nū,",
+  "gloss": "to us",
+  "parse": "Prep-l | 1cp",
+  "parseFull": "Preposition | first person common plural"
+ },
+ {
+  "verse": 8,
+  "heb": "בַּאֲשֶׁ֛ר",
+  "translit": "ba·’ă·šer",
+  "gloss": "with regard",
+  "parse": "Prep-b | Pro-r",
+  "parseFull": "Preposition-b | Pronoun - relative"
+ },
+ {
+  "verse": 8,
+  "heb": "לְמִי־",
+  "translit": "lə·mî-",
+  "gloss": "to whom",
+  "parse": "Prep-l | Interrog",
+  "parseFull": "Preposition-l | Interrogative"
+ },
+ {
+  "verse": 8,
+  "heb": "הָרָעָ֥ה",
+  "translit": "hā·rā·‘āh",
+  "gloss": "evil",
+  "parse": "Art | Adj-fs",
+  "parseFull": "Article | Adjective - feminine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "הַזֹּ֖את",
+  "translit": "haz·zōṯ",
+  "gloss": "[is] this",
+  "parse": "Art | Pro-fs",
+  "parseFull": "Article | Pronoun - feminine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "לָ֑נוּ",
+  "translit": "lā·nū;",
+  "gloss": "upon us",
+  "parse": "Prep-l | 1cp",
+  "parseFull": "Preposition | first person common plural"
+ },
+ {
+  "verse": 8,
+  "heb": "מַה־",
+  "translit": "mah-",
+  "gloss": "What [is]",
+  "parse": "Interrog",
+  "parseFull": "Interrogative"
+ },
+ {
+  "verse": 8,
+  "heb": "מְּלַאכְתְּךָ֙",
+  "translit": "mə·laḵ·tə·ḵā",
+  "gloss": "your occupation",
+  "parse": "N-fsc | 2ms",
+  "parseFull": "Noun - feminine singular construct | second person masculine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "וּמֵאַ֣יִן",
+  "translit": "ū·mê·’a·yin",
+  "gloss": "And from where",
+  "parse": "Conj-w, Prep-m | Adv",
+  "parseFull": "Conjunctive waw, Preposition-m | Adverb"
+ },
+ {
+  "verse": 8,
+  "heb": "תָּב֔וֹא",
+  "translit": "tā·ḇō·w,",
+  "gloss": "do you come",
+  "parse": "V-Qal-Imperf-2ms",
+  "parseFull": "Verb - Qal - Imperfect - second person masculine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "מָ֣ה",
+  "translit": "māh",
+  "gloss": "What [is]",
+  "parse": "Interrog",
+  "parseFull": "Interrogative"
+ },
+ {
+  "verse": 8,
+  "heb": "אַרְצֶ֔ךָ",
+  "translit": "’ar·ṣe·ḵā,",
+  "gloss": "your land",
+  "parse": "N-fsc | 2ms",
+  "parseFull": "Noun - feminine singular construct | second person masculine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "וְאֵֽי־",
+  "translit": "wə·’ê-",
+  "gloss": "And which",
+  "parse": "Conj-w | Interrog",
+  "parseFull": "Conjunctive waw | Interrogative"
+ },
+ {
+  "verse": 8,
+  "heb": "מִזֶּ֥ה",
+  "translit": "miz·zeh",
+  "gloss": "from",
+  "parse": "Pro-ms",
+  "parseFull": "Pronoun - masculine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "עַ֖ם",
+  "translit": "‘am",
+  "gloss": "people",
+  "parse": "N-ms",
+  "parseFull": "Noun - masculine singular"
+ },
+ {
+  "verse": 8,
+  "heb": "אָֽתָּה׃",
+  "translit": "’āt·tāh.",
+  "gloss": "[are] you",
+  "parse": "Pro-2ms",
+  "parseFull": "Pronoun - second person masculine singular"
+ },
+ {
+  "verse": 9,
+  "heb": "וַיֹּ֥אמֶר",
+  "translit": "way·yō·mer",
+  "gloss": "And he said",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 9,
+  "heb": "אֲלֵיהֶ֖ם",
+  "translit": "’ă·lê·hem",
+  "gloss": "to them",
+  "parse": "Prep | 3mp",
+  "parseFull": "Preposition | third person masculine plural"
+ },
+ {
+  "verse": 9,
+  "heb": "עִבְרִ֣י",
+  "translit": "‘iḇ·rî",
+  "gloss": "A Hebrew",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 9,
+  "heb": "אָנֹ֑כִי",
+  "translit": "’ā·nō·ḵî;",
+  "gloss": "I [am]",
+  "parse": "Pro-1cs",
+  "parseFull": "Pronoun - first person common singular"
+ },
+ {
+  "verse": 9,
+  "heb": "וְאֶת־",
+  "translit": "wə·’eṯ-",
+  "gloss": "and",
+  "parse": "Conj-w | DirObjM",
+  "parseFull": "Conjunctive waw | Direct object marker"
+ },
+ {
+  "verse": 9,
+  "heb": "יְהוָ֞ה",
+  "translit": "Yah·weh",
+  "gloss": "YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 9,
+  "heb": "אֱלֹהֵ֤י",
+  "translit": "’ĕ·lō·hê",
+  "gloss": "God",
+  "parse": "N-mpc",
+  "parseFull": "Noun - masculine plural construct"
+ },
+ {
+  "verse": 9,
+  "heb": "הַשָּׁמַ֙יִם֙",
+  "translit": "haš·šā·ma·yim",
+  "gloss": "of the heavens",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 9,
+  "heb": "אֲנִ֣י",
+  "translit": "’ă·nî",
+  "gloss": "I",
+  "parse": "Pro-1cs",
+  "parseFull": "Pronoun - first person common singular"
+ },
+ {
+  "verse": 9,
+  "heb": "יָרֵ֔א",
+  "translit": "yā·rê,",
+  "gloss": "fear",
+  "parse": "Adj-ms",
+  "parseFull": "Adjective - masculine singular"
+ },
+ {
+  "verse": 9,
+  "heb": "אֲשֶׁר־",
+  "translit": "’ă·šer-",
+  "gloss": "who",
+  "parse": "Pro-r",
+  "parseFull": "Pronoun - relative"
+ },
+ {
+  "verse": 9,
+  "heb": "עָשָׂ֥ה",
+  "translit": "‘ā·śāh",
+  "gloss": "made",
+  "parse": "V-Qal-Perf-3ms",
+  "parseFull": "Verb - Qal - Perfect - third person masculine singular"
+ },
+ {
+  "verse": 9,
+  "heb": "אֶת־",
+  "translit": "’eṯ-",
+  "gloss": "-",
+  "parse": "DirObjM",
+  "parseFull": "Direct object marker"
+ },
+ {
+  "verse": 9,
+  "heb": "הַיָּ֖ם",
+  "translit": "hay·yām",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 9,
+  "heb": "וְאֶת־",
+  "translit": "wə·’eṯ-",
+  "gloss": "and",
+  "parse": "Conj-w | DirObjM",
+  "parseFull": "Conjunctive waw | Direct object marker"
+ },
+ {
+  "verse": 9,
+  "heb": "הַיַּבָּשָֽׁה׃",
+  "translit": "hay·yab·bā·šāh.",
+  "gloss": "the dry land",
+  "parse": "Art | N-fs",
+  "parseFull": "Article | Noun - feminine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "וַיִּֽירְא֤וּ",
+  "translit": "way·yî·rə·’ū",
+  "gloss": "And feared",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 10,
+  "heb": "הָֽאֲנָשִׁים֙",
+  "translit": "hā·’ă·nā·šîm",
+  "gloss": "the men",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 10,
+  "heb": "יִרְאָ֣ה",
+  "translit": "yir·’āh",
+  "gloss": "[with] a fear",
+  "parse": "N-fs",
+  "parseFull": "Noun - feminine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "גְדוֹלָ֔ה",
+  "translit": "ḡə·ḏō·w·lāh,",
+  "gloss": "great",
+  "parse": "Adj-fs",
+  "parseFull": "Adjective - feminine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "וַיֹּאמְר֥וּ",
+  "translit": "way·yō·mə·rū",
+  "gloss": "and they said",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 10,
+  "heb": "אֵלָ֖יו",
+  "translit": "’ê·lāw",
+  "gloss": "to him",
+  "parse": "Prep | 3ms",
+  "parseFull": "Preposition | third person masculine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "מַה־",
+  "translit": "mah-",
+  "gloss": "What [is]",
+  "parse": "Interrog",
+  "parseFull": "Interrogative"
+ },
+ {
+  "verse": 10,
+  "heb": "זֹּ֣את",
+  "translit": "zōṯ",
+  "gloss": "this",
+  "parse": "Pro-fs",
+  "parseFull": "Pronoun - feminine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "עָשִׂ֑יתָ",
+  "translit": "‘ā·śî·ṯā;",
+  "gloss": "You have done",
+  "parse": "V-Qal-Perf-2ms",
+  "parseFull": "Verb - Qal - Perfect - second person masculine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "כִּֽי־",
+  "translit": "kî-",
+  "gloss": "for",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 10,
+  "heb": "יָדְע֣וּ",
+  "translit": "yā·ḏə·‘ū",
+  "gloss": "knew",
+  "parse": "V-Qal-Perf-3cp",
+  "parseFull": "Verb - Qal - Perfect - third person common plural"
+ },
+ {
+  "verse": 10,
+  "heb": "הָאֲנָשִׁ֗ים",
+  "translit": "hā·’ă·nā·šîm,",
+  "gloss": "the men",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 10,
+  "heb": "כִּֽי־",
+  "translit": "kî-",
+  "gloss": "that",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 10,
+  "heb": "מִלִּפְנֵ֤י",
+  "translit": "mil·lip̄·nê",
+  "gloss": "away from the face",
+  "parse": "Prep-m, Prep-l | N-cpc",
+  "parseFull": "Preposition-m, Preposition-l | Noun - common plural construct"
+ },
+ {
+  "verse": 10,
+  "heb": "יְהוָה֙",
+  "translit": "Yah·weh",
+  "gloss": "of YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "ה֣וּא",
+  "translit": "hū",
+  "gloss": "he",
+  "parse": "Pro-3ms",
+  "parseFull": "Pronoun - third person masculine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "בֹרֵ֔חַ",
+  "translit": "ḇō·rê·aḥ,",
+  "gloss": "was fleeing",
+  "parse": "V-Qal-Prtcpl-ms",
+  "parseFull": "Verb - Qal - Participle - masculine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "כִּ֥י",
+  "translit": "kî",
+  "gloss": "because",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 10,
+  "heb": "הִגִּ֖יד",
+  "translit": "hig·gîḏ",
+  "gloss": "he had told",
+  "parse": "V-Hifil-Perf-3ms",
+  "parseFull": "Verb - Hifil - Perfect - third person masculine singular"
+ },
+ {
+  "verse": 10,
+  "heb": "לָהֶֽם׃",
+  "translit": "lā·hem.",
+  "gloss": "them",
+  "parse": "Prep-l | Pro-3mp",
+  "parseFull": "Preposition-l | Pronoun - third person masculine plural"
+ },
+ {
+  "verse": 11,
+  "heb": "וַיֹּאמְר֤וּ",
+  "translit": "way·yō·mə·rū",
+  "gloss": "And they said",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 11,
+  "heb": "אֵלָיו֙",
+  "translit": "’ê·lāw",
+  "gloss": "to him",
+  "parse": "Prep | 3ms",
+  "parseFull": "Preposition | third person masculine singular"
+ },
+ {
+  "verse": 11,
+  "heb": "מַה־",
+  "translit": "mah-",
+  "gloss": "What",
+  "parse": "Interrog",
+  "parseFull": "Interrogative"
+ },
+ {
+  "verse": 11,
+  "heb": "נַּ֣עֲשֶׂה",
+  "translit": "na·‘ă·śeh",
+  "gloss": "shall we do",
+  "parse": "V-Qal-Imperf-1cp",
+  "parseFull": "Verb - Qal - Imperfect - first person common plural"
+ },
+ {
+  "verse": 11,
+  "heb": "לָּ֔ךְ",
+  "translit": "lāḵ,",
+  "gloss": "to you",
+  "parse": "Prep-l | 2fs",
+  "parseFull": "Preposition | second person feminine singular"
+ },
+ {
+  "verse": 11,
+  "heb": "וְיִשְׁתֹּ֥ק",
+  "translit": "wə·yiš·tōq",
+  "gloss": "that may become quiet",
+  "parse": "Conj-w | V-Qal-ConjImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Conjunctive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 11,
+  "heb": "הַיָּ֖ם",
+  "translit": "hay·yām",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 11,
+  "heb": "מֵֽעָלֵ֑ינוּ",
+  "translit": "mê·‘ā·lê·nū;",
+  "gloss": "around us",
+  "parse": "Prep-m | 1cp",
+  "parseFull": "Preposition-m | first person common plural"
+ },
+ {
+  "verse": 11,
+  "heb": "כִּ֥י",
+  "translit": "kî",
+  "gloss": "for",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 11,
+  "heb": "הַיָּ֖ם",
+  "translit": "hay·yām",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 11,
+  "heb": "הוֹלֵ֥ךְ",
+  "translit": "hō·w·lêḵ",
+  "gloss": "was going on",
+  "parse": "V-Qal-Prtcpl-ms",
+  "parseFull": "Verb - Qal - Participle - masculine singular"
+ },
+ {
+  "verse": 11,
+  "heb": "וְסֹעֵֽר׃",
+  "translit": "wə·sō·‘êr.",
+  "gloss": "and raging",
+  "parse": "Conj-w | V-Qal-Prtcpl-ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Participle - masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "וַיֹּ֣אמֶר",
+  "translit": "way·yō·mer",
+  "gloss": "And he said",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "אֲלֵיהֶ֗ם",
+  "translit": "’ă·lê·hem,",
+  "gloss": "to them",
+  "parse": "Prep | 3mp",
+  "parseFull": "Preposition | third person masculine plural"
+ },
+ {
+  "verse": 12,
+  "heb": "שָׂא֙וּנִי֙",
+  "translit": "śā·’ū·nî",
+  "gloss": "Pick me up",
+  "parse": "V-Qal-Imp-mp | 1cs",
+  "parseFull": "Verb - Qal - Imperative - masculine plural | first person common singular"
+ },
+ {
+  "verse": 12,
+  "heb": "וַהֲטִילֻ֣נִי",
+  "translit": "wa·hă·ṭî·lu·nî",
+  "gloss": "and cast me",
+  "parse": "Conj-w | V-Hifil-Imp-mp | 1cs",
+  "parseFull": "Conjunctive waw | Verb - Hifil - Imperative - masculine plural | first person common singular"
+ },
+ {
+  "verse": 12,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "into",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 12,
+  "heb": "הַיָּ֔ם",
+  "translit": "hay·yām,",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "וְיִשְׁתֹּ֥ק",
+  "translit": "wə·yiš·tōq",
+  "gloss": "and will become quiet",
+  "parse": "Conj-w | V-Qal-ConjImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Conjunctive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "הַיָּ֖ם",
+  "translit": "hay·yām",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "מֵֽעֲלֵיכֶ֑ם",
+  "translit": "mê·‘ă·lê·ḵem;",
+  "gloss": "around you⁺",
+  "parse": "Prep-m | 2mp",
+  "parseFull": "Preposition-m | second person masculine plural"
+ },
+ {
+  "verse": 12,
+  "heb": "כִּ֚י",
+  "translit": "kî",
+  "gloss": "for",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 12,
+  "heb": "יוֹדֵ֣עַ",
+  "translit": "yō·w·ḏê·a‘",
+  "gloss": "know",
+  "parse": "V-Qal-Prtcpl-ms",
+  "parseFull": "Verb - Qal - Participle - masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "אָ֔נִי",
+  "translit": "’ā·nî,",
+  "gloss": "I",
+  "parse": "Pro-1cs",
+  "parseFull": "Pronoun - first person common singular"
+ },
+ {
+  "verse": 12,
+  "heb": "כִּ֣י",
+  "translit": "kî",
+  "gloss": "that",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 12,
+  "heb": "בְשֶׁלִּ֔י",
+  "translit": "ḇə·šel·lî,",
+  "gloss": "because of me",
+  "parse": "Prep-b, Pro-r | Prep-l | 1cs",
+  "parseFull": "Preposition-b, Pr | Preposition | first person common singular"
+ },
+ {
+  "verse": 12,
+  "heb": "הַסַּ֧עַר",
+  "translit": "has·sa·‘ar",
+  "gloss": "the tempest",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "הַגָּד֛וֹל",
+  "translit": "hag·gā·ḏō·wl",
+  "gloss": "great",
+  "parse": "Art | Adj-ms",
+  "parseFull": "Article | Adjective - masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "הַזֶּ֖ה",
+  "translit": "haz·zeh",
+  "gloss": "this",
+  "parse": "Art | Pro-ms",
+  "parseFull": "Article | Pronoun - masculine singular"
+ },
+ {
+  "verse": 12,
+  "heb": "עֲלֵיכֶֽם׃",
+  "translit": "‘ă·lê·ḵem.",
+  "gloss": "[is] upon you⁺",
+  "parse": "Prep | 2mp",
+  "parseFull": "Preposition | second person masculine plural"
+ },
+ {
+  "verse": 13,
+  "heb": "וַיַּחְתְּר֣וּ",
+  "translit": "way·yaḥ·tə·rū",
+  "gloss": "Dug in",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 13,
+  "heb": "הָאֲנָשִׁ֗ים",
+  "translit": "hā·’ă·nā·šîm,",
+  "gloss": "the men",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 13,
+  "heb": "לְהָשִׁ֛יב",
+  "translit": "lə·hā·šîḇ",
+  "gloss": "to return",
+  "parse": "Prep-l | V-Hifil-Inf",
+  "parseFull": "Preposition-l | Verb - Hifil - Infinitive construct"
+ },
+ {
+  "verse": 13,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "to",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 13,
+  "heb": "הַיַּבָּשָׁ֖ה",
+  "translit": "hay·yab·bā·šāh",
+  "gloss": "the land",
+  "parse": "Art | N-fs",
+  "parseFull": "Article | Noun - feminine singular"
+ },
+ {
+  "verse": 13,
+  "heb": "וְלֹ֣א",
+  "translit": "wə·lō",
+  "gloss": "not",
+  "parse": "Conj-w | Adv-NegPrt",
+  "parseFull": "Conjunctive waw | Adverb - Negative particle"
+ },
+ {
+  "verse": 13,
+  "heb": "יָכֹ֑לוּ",
+  "translit": "yā·ḵō·lū;",
+  "gloss": "they were they able",
+  "parse": "V-Qal-Perf-3cp",
+  "parseFull": "Verb - Qal - Perfect - third person common plural"
+ },
+ {
+  "verse": 13,
+  "heb": "כִּ֣י",
+  "translit": "kî",
+  "gloss": "for",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 13,
+  "heb": "הַיָּ֔ם",
+  "translit": "hay·yām,",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 13,
+  "heb": "הוֹלֵ֥ךְ",
+  "translit": "hō·w·lêḵ",
+  "gloss": "was going on",
+  "parse": "V-Qal-Prtcpl-ms",
+  "parseFull": "Verb - Qal - Participle - masculine singular"
+ },
+ {
+  "verse": 13,
+  "heb": "וְסֹעֵ֖ר",
+  "translit": "wə·sō·‘êr",
+  "gloss": "and raging",
+  "parse": "Conj-w | V-Qal-Prtcpl-ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Participle - masculine singular"
+ },
+ {
+  "verse": 13,
+  "heb": "עֲלֵיהֶֽם׃",
+  "translit": "‘ă·lê·hem.",
+  "gloss": "against them",
+  "parse": "Prep | 3mp",
+  "parseFull": "Preposition | third person masculine plural"
+ },
+ {
+  "verse": 14,
+  "heb": "וַיִּקְרְא֨וּ",
+  "translit": "way·yiq·rə·’ū",
+  "gloss": "And they cried out",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 14,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "to",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 14,
+  "heb": "יְהוָ֜ה",
+  "translit": "Yah·weh",
+  "gloss": "YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "וַיֹּאמְר֗וּ",
+  "translit": "way·yō·mə·rū,",
+  "gloss": "and said",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 14,
+  "heb": "אָנָּ֤ה",
+  "translit": "’ān·nāh",
+  "gloss": "Ah",
+  "parse": "Interjection",
+  "parseFull": "Interjection"
+ },
+ {
+  "verse": 14,
+  "heb": "יְהוָה֙",
+  "translit": "Yah·weh",
+  "gloss": "O YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "אַל־",
+  "translit": "’al-",
+  "gloss": "do not",
+  "parse": "Adv",
+  "parseFull": "Adverb"
+ },
+ {
+  "verse": 14,
+  "heb": "נָ֣א",
+  "translit": "nā",
+  "gloss": "please",
+  "parse": "Interjection",
+  "parseFull": "Interjection"
+ },
+ {
+  "verse": 14,
+  "heb": "נֹאבְדָ֗ה",
+  "translit": "nō·ḇə·ḏāh,",
+  "gloss": "let us perish",
+  "parse": "V-Qal-Imperf.Cohort-1cp",
+  "parseFull": "Verb - Qal - Imperfect Cohortative - first person common plural"
+ },
+ {
+  "verse": 14,
+  "heb": "בְּנֶ֙פֶשׁ֙",
+  "translit": "bə·ne·p̄eš",
+  "gloss": "for the soul",
+  "parse": "Prep-b | N-fsc",
+  "parseFull": "Preposition-b | Noun - feminine singular construct"
+ },
+ {
+  "verse": 14,
+  "heb": "הָאִ֣ישׁ",
+  "translit": "hā·’îš",
+  "gloss": "of the man",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "הַזֶּ֔ה",
+  "translit": "haz·zeh,",
+  "gloss": "this",
+  "parse": "Art | Pro-ms",
+  "parseFull": "Article | Pronoun - masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "וְאַל־",
+  "translit": "wə·’al-",
+  "gloss": "and do not",
+  "parse": "Conj-w | Adv",
+  "parseFull": "Conjunctive waw | Adverb"
+ },
+ {
+  "verse": 14,
+  "heb": "תִּתֵּ֥ן",
+  "translit": "tit·tên",
+  "gloss": "put",
+  "parse": "V-Qal-Imperf-2ms",
+  "parseFull": "Verb - Qal - Imperfect - second person masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "עָלֵ֖ינוּ",
+  "translit": "‘ā·lê·nū",
+  "gloss": "upon us",
+  "parse": "Prep | 1cp",
+  "parseFull": "Preposition | first person common plural"
+ },
+ {
+  "verse": 14,
+  "heb": "דָּ֣ם",
+  "translit": "dām",
+  "gloss": "blood",
+  "parse": "N-ms",
+  "parseFull": "Noun - masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "נָקִ֑יא",
+  "translit": "nā·qî;",
+  "gloss": "innocent",
+  "parse": "Adj-ms",
+  "parseFull": "Adjective - masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "כִּֽי־",
+  "translit": "kî-",
+  "gloss": "for",
+  "parse": "Conj",
+  "parseFull": "Conjunction"
+ },
+ {
+  "verse": 14,
+  "heb": "אַתָּ֣ה",
+  "translit": "’at·tāh",
+  "gloss": "You",
+  "parse": "Pro-2ms",
+  "parseFull": "Pronoun - second person masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "יְהוָ֔ה",
+  "translit": "Yah·weh,",
+  "gloss": "O YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "כַּאֲשֶׁ֥ר",
+  "translit": "ka·’ă·šer",
+  "gloss": "as",
+  "parse": "Prep-k | Pro-r",
+  "parseFull": "Preposition-k | Pronoun - relative"
+ },
+ {
+  "verse": 14,
+  "heb": "חָפַ֖צְתָּ",
+  "translit": "ḥā·p̄aṣ·tā",
+  "gloss": "You pleased",
+  "parse": "V-Qal-Perf-2ms",
+  "parseFull": "Verb - Qal - Perfect - second person masculine singular"
+ },
+ {
+  "verse": 14,
+  "heb": "עָשִֽׂיתָ׃",
+  "translit": "‘ā·śî·ṯā.",
+  "gloss": "You have done",
+  "parse": "V-Qal-Perf-2ms",
+  "parseFull": "Verb - Qal - Perfect - second person masculine singular"
+ },
+ {
+  "verse": 15,
+  "heb": "וַיִּשְׂאוּ֙",
+  "translit": "way·yiś·’ū",
+  "gloss": "And they picked up",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 15,
+  "heb": "אֶת־",
+  "translit": "’eṯ-",
+  "gloss": "-",
+  "parse": "DirObjM",
+  "parseFull": "Direct object marker"
+ },
+ {
+  "verse": 15,
+  "heb": "יוֹנָ֔ה",
+  "translit": "yō·w·nāh,",
+  "gloss": "Jonah",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 15,
+  "heb": "וַיְטִלֻ֖הוּ",
+  "translit": "way·ṭi·lu·hū",
+  "gloss": "and they cast him",
+  "parse": "Conj-w | V-Hifil-CImperf-3mp | 3ms",
+  "parseFull": "Conjunctive waw | Verb - Hifil - Consecutive imperfect - third person masculine plural | third person masculine singular"
+ },
+ {
+  "verse": 15,
+  "heb": "אֶל־",
+  "translit": "’el-",
+  "gloss": "into",
+  "parse": "Prep",
+  "parseFull": "Preposition"
+ },
+ {
+  "verse": 15,
+  "heb": "הַיָּ֑ם",
+  "translit": "hay·yām;",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 15,
+  "heb": "וַיַּעֲמֹ֥ד",
+  "translit": "way·ya·‘ă·mōḏ",
+  "gloss": "and stood",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 15,
+  "heb": "הַיָּ֖ם",
+  "translit": "hay·yām",
+  "gloss": "the sea",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 15,
+  "heb": "מִזַּעְפּֽוֹ׃",
+  "translit": "miz·za‘·pōw.",
+  "gloss": "from its raging",
+  "parse": "Prep-m | V-Qal-Inf | 3ms",
+  "parseFull": "Preposition-m | Verb - Qal - Infinitive construct | third person masculine singular"
+ },
+ {
+  "verse": 16,
+  "heb": "וַיִּֽירְא֧וּ",
+  "translit": "way·yî·rə·’ū",
+  "gloss": "And feared",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 16,
+  "heb": "הָאֲנָשִׁ֛ים",
+  "translit": "hā·’ă·nā·šîm",
+  "gloss": "the men",
+  "parse": "Art | N-mp",
+  "parseFull": "Article | Noun - masculine plural"
+ },
+ {
+  "verse": 16,
+  "heb": "יִרְאָ֥ה",
+  "translit": "yir·’āh",
+  "gloss": "with fear",
+  "parse": "N-fs",
+  "parseFull": "Noun - feminine singular"
+ },
+ {
+  "verse": 16,
+  "heb": "גְדוֹלָ֖ה",
+  "translit": "ḡə·ḏō·w·lāh",
+  "gloss": "great",
+  "parse": "Adj-fs",
+  "parseFull": "Adjective - feminine singular"
+ },
+ {
+  "verse": 16,
+  "heb": "אֶת־",
+  "translit": "’eṯ-",
+  "gloss": "-",
+  "parse": "DirObjM",
+  "parseFull": "Direct object marker"
+ },
+ {
+  "verse": 16,
+  "heb": "יְהוָ֑ה",
+  "translit": "Yah·weh;",
+  "gloss": "YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 16,
+  "heb": "וַיִּֽזְבְּחוּ־",
+  "translit": "way·yiz·bə·ḥū-",
+  "gloss": "and they offered",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 16,
+  "heb": "זֶ֙בַח֙",
+  "translit": "ze·ḇaḥ",
+  "gloss": "a sacrifice",
+  "parse": "N-ms",
+  "parseFull": "Noun - masculine singular"
+ },
+ {
+  "verse": 16,
+  "heb": "לַֽיהוָ֔ה",
+  "translit": "Yah·weh,",
+  "gloss": "to YHWH",
+  "parse": "Prep-l | N-proper-ms",
+  "parseFull": "Preposition-l | Noun - proper - masculine singular"
+ },
+ {
+  "verse": 16,
+  "heb": "וַֽיִּדְּר֖וּ",
+  "translit": "way·yid·də·rū",
+  "gloss": "and they vowed",
+  "parse": "Conj-w | V-Qal-CImperf-3mp",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine plural"
+ },
+ {
+  "verse": 16,
+  "heb": "נְדָרִֽים׃",
+  "translit": "nə·ḏā·rîm.",
+  "gloss": "vows",
+  "parse": "N-mp",
+  "parseFull": "Noun - masculine plural"
+ },
+ {
+  "verse": 17,
+  "heb": "וַיְמַ֤ן",
+  "translit": "way·man",
+  "gloss": "And appointed",
+  "parse": "Conj-w | V-Piel-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Piel - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "יְהוָה֙",
+  "translit": "Yah·weh",
+  "gloss": "YHWH",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "דָּ֣ג",
+  "translit": "dāḡ",
+  "gloss": "a fish",
+  "parse": "N-ms",
+  "parseFull": "Noun - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "גָּד֔וֹל",
+  "translit": "gā·ḏō·wl,",
+  "gloss": "great",
+  "parse": "Adj-ms",
+  "parseFull": "Adjective - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "לִבְלֹ֖עַ",
+  "translit": "liḇ·lō·a‘",
+  "gloss": "to swallow",
+  "parse": "Prep-l | V-Qal-Inf",
+  "parseFull": "Preposition-l | Verb - Qal - Infinitive construct"
+ },
+ {
+  "verse": 17,
+  "heb": "אֶת־",
+  "translit": "’eṯ-",
+  "gloss": "-",
+  "parse": "DirObjM",
+  "parseFull": "Direct object marker"
+ },
+ {
+  "verse": 17,
+  "heb": "יוֹנָ֑ה",
+  "translit": "yō·w·nāh;",
+  "gloss": "Jonah",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "וַיְהִ֤י",
+  "translit": "way·hî",
+  "gloss": "And was",
+  "parse": "Conj-w | V-Qal-CImperf-3ms",
+  "parseFull": "Conjunctive waw | Verb - Qal - Consecutive imperfect - third person masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "יוֹנָה֙",
+  "translit": "yō·w·nāh",
+  "gloss": "Jonah",
+  "parse": "N-proper-ms",
+  "parseFull": "Noun - proper - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "בִּמְעֵ֣י",
+  "translit": "bim·‘ê",
+  "gloss": "in the bowels",
+  "parse": "Prep-b | N-mpc",
+  "parseFull": "Preposition-b | Noun - masculine plural construct"
+ },
+ {
+  "verse": 17,
+  "heb": "הַדָּ֔ג",
+  "translit": "had·dāḡ,",
+  "gloss": "of the fish",
+  "parse": "Art | N-ms",
+  "parseFull": "Article | Noun - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "שְׁלֹשָׁ֥ה",
+  "translit": "šə·lō·šāh",
+  "gloss": "three",
+  "parse": "Number-ms",
+  "parseFull": "Number - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "יָמִ֖ים",
+  "translit": "yā·mîm",
+  "gloss": "days",
+  "parse": "N-mp",
+  "parseFull": "Noun - masculine plural"
+ },
+ {
+  "verse": 17,
+  "heb": "וּשְׁלֹשָׁ֥ה",
+  "translit": "ū·šə·lō·šāh",
+  "gloss": "and three",
+  "parse": "Conj-w | Number-ms",
+  "parseFull": "Conjunctive waw | Number - masculine singular"
+ },
+ {
+  "verse": 17,
+  "heb": "לֵילֽוֹת׃",
+  "translit": "lê·lō·wṯ.",
+  "gloss": "nights",
+  "parse": "N-mp",
+  "parseFull": "Noun - masculine plural"
+ }
+]
