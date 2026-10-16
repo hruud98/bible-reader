@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>יוֹנָה א — Jonah 1</title>
+<title>Hebrew Bible Reader</title>
 <style>
   :root {
     --bg: #faf8f3;
@@ -20,18 +20,55 @@
   }
   header {
     position: sticky; top: 0; z-index: 10;
-    display: flex; align-items: center; justify-content: space-between;
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
     padding: 12px 18px;
     background: rgba(250,248,243,0.9); backdrop-filter: blur(8px);
     border-bottom: 1px solid #e7e3da;
   }
-  header h1 { margin: 0; font-size: 20px; font-weight: 600; }
-  #play {
+  header h1 { margin: 0; font-size: 20px; font-weight: 600; direction: ltr; }
+  .iconbtn {
     border: none; background: none; cursor: pointer;
-    font-size: 30px; line-height: 1; color: var(--accent);
-    width: 44px; height: 44px;
+    font-size: 26px; line-height: 1; color: var(--accent);
+    width: 44px; height: 44px; flex: 0 0 auto;
   }
   main { max-width: 760px; margin: 0 auto; padding: 24px 20px 80px; }
+
+  #menu { position: fixed; inset: 0; z-index: 30; display: none; background: rgba(0,0,0,0.35); }
+  #menu.open { display: block; }
+  .sheet {
+    direction: ltr;
+    position: absolute; top: 0; right: 0; height: 100%;
+    width: min(340px, 85vw);
+    background: var(--panel); padding: 20px;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.18);
+    display: flex; flex-direction: column; gap: 16px;
+  }
+  .sheet h2 { margin: 0; font-size: 18px; }
+  .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  .field select {
+    width: 100%; font-size: 16px; padding: 10px; border-radius: 8px;
+    border: 1px solid #d8d3c8; background: #fff;
+  }
+  #loadBtn {
+    margin-top: 4px; padding: 12px; font-size: 16px; font-weight: 600;
+    border: none; border-radius: 10px; background: var(--accent); color: #fff; cursor: pointer;
+  }
+  .menuhint { font-size: 12px; color: var(--muted); line-height: 1.4; }
+
+  #loading {
+    position: fixed; inset: 0; z-index: 40; display: none;
+    flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+    background: rgba(250,248,243,0.92); color: var(--ink);
+  }
+  #loading.open { display: flex; }
+  .spinner {
+    width: 42px; height: 42px; border-radius: 50%;
+    border: 4px solid #e2ddd2; border-top-color: var(--accent);
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #loadStatus { font-size: 14px; color: var(--muted); max-width: 80vw; text-align: center; }
+
   .verse {
     direction: rtl; text-align: right;
     display: flex; flex-wrap: wrap; align-items: flex-start;
@@ -71,73 +108,173 @@
 </head>
 <body>
   <header>
-    <h1>יוֹנָה א</h1>
-    <button id="play" title="Play / Pause" aria-label="Play or pause">▶︎</button>
+    <button id="menuBtn" class="iconbtn" title="Choose chapter" aria-label="Choose chapter">&#9776;</button>
+    <h1 id="title">Hebrew Bible Reader</h1>
+    <button id="play" class="iconbtn" title="Play / Pause" aria-label="Play or pause">&#9654;&#65038;</button>
   </header>
   <main>
     <p class="hint">Hold a word to stop the audio and see its meaning; release to play from that word.</p>
     <div id="text"></div>
   </main>
 
-  <audio id="audio" preload="auto" src="jonah1.wav"></audio>
+  <div id="menu">
+    <div class="sheet">
+      <h2>Choose a chapter</h2>
+      <div class="field">
+        <label for="bookSel">Book</label>
+        <select id="bookSel"></select>
+      </div>
+      <div class="field">
+        <label for="chapSel">Chapter</label>
+        <select id="chapSel"></select>
+      </div>
+      <button id="loadBtn">Open chapter</button>
+      <p class="menuhint">A &#10003; marks chapters already downloaded and aligned. New chapters are fetched from the interlinear + audio sources and aligned on first open (this can take a minute).</p>
+    </div>
+  </div>
 
-  <script src="data.js"></script>
-  <script src="word_times.js"></script>
+  <div id="loading">
+    <div class="spinner"></div>
+    <div id="loadStatus">Preparing&#8230;</div>
+  </div>
+
+  <audio id="audio" preload="auto"></audio>
+
   <script>
-    const words = window.JONAH || [];
     const textEl = document.getElementById("text");
     const audio = document.getElementById("audio");
     const playBtn = document.getElementById("play");
+    const titleEl = document.getElementById("title");
+    const menu = document.getElementById("menu");
+    const menuBtn = document.getElementById("menuBtn");
+    const bookSel = document.getElementById("bookSel");
+    const chapSel = document.getElementById("chapSel");
+    const loadBtn = document.getElementById("loadBtn");
+    const loading = document.getElementById("loading");
+    const loadStatus = document.getElementById("loadStatus");
 
-    // Build verses
-    const verses = [];
-    for (const w of words) {
-      let v = verses[verses.length - 1];
-      if (!v || v.n !== w.verse) { v = { n: w.verse, words: [] }; verses.push(v); }
-      v.words.push(w);
-    }
+    let catalog = [];
+    let WORD_TIMES = [];
+    const bookById = (id) => catalog.find((b) => b.id === id);
 
-    // Per-word start times produced by neural forced alignment
-    // (torchaudio MMS_FA model, generated offline into word_times.js).
-    const WORD_TIMES = window.WORD_TIMES || [];
     function wordStartTime(i) {
       const t = WORD_TIMES[i];
       return t ? t.begin : 0;
     }
 
-    let wordIndex = 0;
-    for (const v of verses) {
-      const row = document.createElement("div");
-      row.className = "verse";
-      const num = document.createElement("span");
-      num.className = "vnum";
-      num.textContent = v.n;
-      row.appendChild(num);
-      for (const w of v.words) {
-        const el = document.createElement("span");
-        el.className = "word";
-        el.textContent = w.heb;
-        const gloss = document.createElement("span");
-        gloss.className = "anno gloss";
-        gloss.textContent = w.gloss;
-        const grammar = document.createElement("span");
-        grammar.className = "anno grammar";
-        grammar.textContent = w.parseFull;
-        el.appendChild(gloss);
-        el.appendChild(grammar);
-        attachHold(el, wordIndex);
-        wordIndex++;
-        row.appendChild(el);
+    // ---- Menu ----
+    menuBtn.addEventListener("click", () => menu.classList.add("open"));
+    menu.addEventListener("click", (e) => { if (e.target === menu) menu.classList.remove("open"); });
+
+    function fillChapters() {
+      const b = bookById(bookSel.value);
+      chapSel.innerHTML = "";
+      if (!b) return;
+      for (let c = 1; c <= b.chapters; c++) {
+        const opt = document.createElement("option");
+        opt.value = c;
+        opt.textContent = b.cached.includes(c) ? `${c}  \u2713` : `${c}`;
+        chapSel.appendChild(opt);
       }
-      textEl.appendChild(row);
     }
 
-    // Play / pause
+    async function loadCatalog() {
+      const res = await fetch("/api/catalog");
+      catalog = (await res.json()).books;
+      bookSel.innerHTML = "";
+      for (const b of catalog) {
+        const opt = document.createElement("option");
+        opt.value = b.id;
+        opt.textContent = b.name;
+        bookSel.appendChild(opt);
+      }
+      bookSel.addEventListener("change", fillChapters);
+      fillChapters();
+    }
+
+    loadBtn.addEventListener("click", () => openChapter(bookSel.value, parseInt(chapSel.value, 10)));
+
+    // ---- Load + render a chapter ----
+    async function openChapter(bookId, chapter) {
+      const b = bookById(bookId);
+      if (!b) return;
+      menu.classList.remove("open");
+      loading.classList.add("open");
+      const cached = b.cached.includes(chapter);
+      loadStatus.textContent = cached
+        ? `Loading ${b.name} ${chapter}\u2026`
+        : `Fetching & aligning ${b.name} ${chapter}\u2026 (first time, ~1 min)`;
+      try {
+        const res = await fetch(`/api/chapter?book=${encodeURIComponent(bookId)}&ch=${chapter}`);
+        const info = await res.json();
+        if (!info.ok) throw new Error(info.error || "Failed to process chapter");
+        const slug = info.slug;
+        const [data, times] = await Promise.all([
+          fetch(`/chapters/${slug}/data.json`).then((r) => r.json()),
+          fetch(`/chapters/${slug}/word_times.json`).then((r) => r.json()),
+        ]);
+        WORD_TIMES = times;
+        audio.pause();
+        audio.src = `/chapters/${slug}/audio.wav`;
+        audio.load();
+        render(data);
+        titleEl.textContent = `${b.name} ${chapter}`;
+        document.title = `${b.name} ${chapter} \u2014 Hebrew Bible`;
+        if (!b.cached.includes(chapter)) b.cached.push(chapter);
+        fillChapters();
+        localStorage.setItem("lastChapter", JSON.stringify({ bookId, chapter }));
+        window.scrollTo(0, 0);
+      } catch (err) {
+        loadStatus.textContent = `Error: ${err.message}`;
+        setTimeout(() => loading.classList.remove("open"), 2500);
+        return;
+      }
+      loading.classList.remove("open");
+    }
+
+    function render(words) {
+      textEl.innerHTML = "";
+      const verses = [];
+      for (const w of words) {
+        let v = verses[verses.length - 1];
+        if (!v || v.n !== w.verse) { v = { n: w.verse, words: [] }; verses.push(v); }
+        v.words.push(w);
+      }
+      let wordIndex = 0;
+      for (const v of verses) {
+        const row = document.createElement("div");
+        row.className = "verse";
+        const num = document.createElement("span");
+        num.className = "vnum";
+        num.textContent = v.n;
+        row.appendChild(num);
+        for (const w of v.words) {
+          const el = document.createElement("span");
+          el.className = "word";
+          el.textContent = w.heb;
+          const gloss = document.createElement("span");
+          gloss.className = "anno gloss";
+          gloss.textContent = w.gloss;
+          const grammar = document.createElement("span");
+          grammar.className = "anno grammar";
+          grammar.textContent = w.parseFull;
+          el.appendChild(gloss);
+          el.appendChild(grammar);
+          attachHold(el, wordIndex);
+          wordIndex++;
+          row.appendChild(el);
+        }
+        textEl.appendChild(row);
+      }
+    }
+
+    // ---- Playback ----
     playBtn.addEventListener("click", () => {
+      if (!audio.src) { menu.classList.add("open"); return; }
       if (audio.paused) audio.play(); else audio.pause();
     });
-    audio.addEventListener("play", () => (playBtn.textContent = "❚❚"));
-    audio.addEventListener("pause", () => (playBtn.textContent = "▶︎"));
+    audio.addEventListener("play", () => (playBtn.innerHTML = "&#10074;&#10074;"));
+    audio.addEventListener("pause", () => (playBtn.innerHTML = "&#9654;&#65038;"));
 
     // Hold behavior: touching a word stops the audio and shows its gloss and
     // grammar; releasing hides the annotation and resumes playback from the
@@ -181,6 +318,17 @@
       el.addEventListener("pointercancel", () => release(false));
       el.addEventListener("lostpointercapture", () => release(false));
     }
+
+    // ---- Boot ----
+    (async function boot() {
+      await loadCatalog();
+      let last = null;
+      try { last = JSON.parse(localStorage.getItem("lastChapter")); } catch (e) {}
+      if (!last) last = { bookId: "jonah", chapter: 1 };
+      const b = bookById(last.bookId);
+      if (b) { bookSel.value = last.bookId; fillChapters(); chapSel.value = last.chapter; }
+      openChapter(last.bookId, last.chapter);
+    })();
   </script>
 </body>
 </html>

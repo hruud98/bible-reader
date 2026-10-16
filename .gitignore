@@ -10,8 +10,10 @@ align/.venv/
 # Generated / large audio artifacts
 align/jonah1.mp3
 align/onsets.txt
-web/jonah1.wav
-web/jonah1.m4a
+# Per-chapter cache: keep aligned data (data.json, word_times.json, index.json)
+# but not the large regenerable audio/transcripts.
+web/chapters/**/audio.wav
+web/chapters/**/transcript.txt
 
 # Editor
 .vscode/

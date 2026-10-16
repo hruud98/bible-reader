@@ -1,0 +1,194 @@
+{
+ "books": [
+  {
+   "id": "genesis",
+   "name": "Genesis",
+   "chapters": 50,
+   "cached": []
+  },
+  {
+   "id": "exodus",
+   "name": "Exodus",
+   "chapters": 40,
+   "cached": []
+  },
+  {
+   "id": "leviticus",
+   "name": "Leviticus",
+   "chapters": 27,
+   "cached": []
+  },
+  {
+   "id": "numbers",
+   "name": "Numbers",
+   "chapters": 36,
+   "cached": []
+  },
+  {
+   "id": "deuteronomy",
+   "name": "Deuteronomy",
+   "chapters": 34,
+   "cached": []
+  },
+  {
+   "id": "joshua",
+   "name": "Joshua",
+   "chapters": 24,
+   "cached": []
+  },
+  {
+   "id": "judges",
+   "name": "Judges",
+   "chapters": 21,
+   "cached": []
+  },
+  {
+   "id": "isaiah",
+   "name": "Isaiah",
+   "chapters": 66,
+   "cached": []
+  },
+  {
+   "id": "jeremiah",
+   "name": "Jeremiah",
+   "chapters": 52,
+   "cached": []
+  },
+  {
+   "id": "ezekiel",
+   "name": "Ezekiel",
+   "chapters": 48,
+   "cached": []
+  },
+  {
+   "id": "hosea",
+   "name": "Hosea",
+   "chapters": 14,
+   "cached": []
+  },
+  {
+   "id": "joel",
+   "name": "Joel",
+   "chapters": 4,
+   "cached": []
+  },
+  {
+   "id": "amos",
+   "name": "Amos",
+   "chapters": 9,
+   "cached": []
+  },
+  {
+   "id": "obadiah",
+   "name": "Obadiah",
+   "chapters": 1,
+   "cached": []
+  },
+  {
+   "id": "jonah",
+   "name": "Jonah",
+   "chapters": 4,
+   "cached": [
+    1
+   ]
+  },
+  {
+   "id": "micah",
+   "name": "Micah",
+   "chapters": 7,
+   "cached": []
+  },
+  {
+   "id": "nahum",
+   "name": "Nahum",
+   "chapters": 3,
+   "cached": []
+  },
+  {
+   "id": "habakkuk",
+   "name": "Habakkuk",
+   "chapters": 3,
+   "cached": []
+  },
+  {
+   "id": "zephaniah",
+   "name": "Zephaniah",
+   "chapters": 3,
+   "cached": []
+  },
+  {
+   "id": "haggai",
+   "name": "Haggai",
+   "chapters": 2,
+   "cached": []
+  },
+  {
+   "id": "zechariah",
+   "name": "Zechariah",
+   "chapters": 14,
+   "cached": []
+  },
+  {
+   "id": "malachi",
+   "name": "Malachi",
+   "chapters": 3,
+   "cached": []
+  },
+  {
+   "id": "psalms",
+   "name": "Psalms",
+   "chapters": 99,
+   "cached": [
+    1
+   ]
+  },
+  {
+   "id": "job",
+   "name": "Job",
+   "chapters": 42,
+   "cached": []
+  },
+  {
+   "id": "proverbs",
+   "name": "Proverbs",
+   "chapters": 31,
+   "cached": []
+  },
+  {
+   "id": "ruth",
+   "name": "Ruth",
+   "chapters": 4,
+   "cached": []
+  },
+  {
+   "id": "song_of_songs",
+   "name": "Song of Songs",
+   "chapters": 8,
+   "cached": []
+  },
+  {
+   "id": "ecclesiastes",
+   "name": "Ecclesiastes",
+   "chapters": 12,
+   "cached": []
+  },
+  {
+   "id": "lamentations",
+   "name": "Lamentations",
+   "chapters": 5,
+   "cached": []
+  },
+  {
+   "id": "esther",
+   "name": "Esther",
+   "chapters": 10,
+   "cached": []
+  },
+  {
+   "id": "daniel",
+   "name": "Daniel",
+   "chapters": 12,
+   "cached": []
+  }
+ ]
+}
