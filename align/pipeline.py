@@ -153,19 +153,46 @@ def download_audio(mechon_code, chapter, out_wav):
 # Forced alignment (torchaudio MMS_FA + uroman) -- loaded lazily
 # --------------------------------------------------------------------------- #
 _CANT = re.compile("[\u0591-\u05AF\u05BD\u05BE\u05C0\u05C3\u05C6]")
+_CHUNK_SECONDS = 40  # forward-pass window; whole-file passes thrash memory
 _ali = {}
 
 
 def _load_aligner():
+    """Load the MMS_FA model + helpers once and reuse across chapters.
+
+    The conv forward pass runs on Apple's MPS GPU when available (~3x faster);
+    the cheap CTC forced-align step always runs on CPU (no MPS kernel).
+    """
     if _ali:
         return _ali
+    import torch
     import torchaudio
+    import torchaudio.functional as F
     import uroman as ur
-    from ctc_forced_aligner import get_word_stamps
+    from ctc_forced_aligner import (
+        align as fa_align,
+        load_audio,
+        load_transcript,
+        unflatten,
+        _postprocess_results,
+    )
 
-    _ali["dict"] = torchaudio.pipelines.MMS_FA.get_dict(star=None)
-    _ali["uroman"] = ur.Uroman()
-    _ali["get_word_stamps"] = get_word_stamps
+    bundle = torchaudio.pipelines.MMS_FA
+    device = "mps" if torch.backends.mps.is_available() else "cpu"
+    _ali.update(
+        torch=torch,
+        F=F,
+        bundle=bundle,
+        device=device,
+        model=bundle.get_model(with_star=False).to(device).eval(),
+        dict=bundle.get_dict(star=None),
+        uroman=ur.Uroman(),
+        load_audio=load_audio,
+        load_transcript=load_transcript,
+        fa_align=fa_align,
+        unflatten=unflatten,
+        post=_postprocess_results,
+    )
     return _ali
 
 
@@ -176,12 +203,42 @@ def _romanize(heb, a):
     return s or "a"
 
 
+def _emissions(a, waveform):
+    """Run the model over the waveform in windows, returning CPU emissions."""
+    torch = a["torch"]
+    win = _CHUNK_SECONDS * a["bundle"].sample_rate
+    wav = waveform.to(a["device"])
+    chunks = []
+    with torch.inference_mode():
+        for s in range(0, wav.shape[1], win):
+            emission, _ = a["model"](wav[:, s:s + win])
+            chunks.append(emission.to("cpu"))
+    return torch.cat(chunks, dim=1)
+
+
 def align(words, wav_path, transcript_path):
     a = _load_aligner()
+    F = a["F"]
     roman = [_romanize(w["heb"], a) for w in words]
     with open(transcript_path, "w", encoding="utf-8") as f:
         f.write("\n".join(roman) + "\n")
-    results, _m, _l = a["get_word_stamps"](wav_path, transcript_path, model_type="MMS_FA")
+
+    waveform = a["load_audio"](wav_path, ret_type="torch")
+    transcript, _lines = a["load_transcript"](transcript_path, a["dict"])
+    emission = _emissions(a, waveform)
+    tokens = [
+        a["dict"][c]
+        for word in transcript
+        for c in word
+        if c in a["dict"] and a["dict"][c] != 0
+    ]
+    aligned_tokens, scores = a["fa_align"](emission, tokens, "cpu")
+    token_spans = F.merge_tokens(aligned_tokens[0], scores[0])
+    word_spans = a["unflatten"](token_spans, [len(w) for w in transcript])
+    results = a["post"](
+        transcript, word_spans, waveform, emission.size(1),
+        a["bundle"].sample_rate, scores,
+    )
     if len(results) != len(words):
         raise RuntimeError(
             f"alignment produced {len(results)} spans for {len(words)} words"
