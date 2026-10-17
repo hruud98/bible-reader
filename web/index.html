@@ -31,6 +31,13 @@
     font-size: 26px; line-height: 1; color: var(--accent);
     width: 44px; height: 44px; flex: 0 0 auto;
   }
+  .rightctrl { display: flex; align-items: center; gap: 2px; flex: 0 0 auto; }
+  #speed {
+    border: 1px solid #d8d3c8; background: #fff; cursor: pointer;
+    font-size: 14px; font-weight: 600; color: var(--accent);
+    height: 34px; min-width: 46px; padding: 0 8px; border-radius: 8px;
+    direction: ltr;
+  }
   main { max-width: 760px; margin: 0 auto; padding: 24px 20px 80px; }
 
   #menu { position: fixed; inset: 0; z-index: 30; display: none; background: rgba(0,0,0,0.35); }
@@ -110,7 +117,10 @@
   <header>
     <button id="menuBtn" class="iconbtn" title="Choose chapter" aria-label="Choose chapter">&#9776;</button>
     <h1 id="title">Hebrew Bible Reader</h1>
-    <button id="play" class="iconbtn" title="Play / Pause" aria-label="Play or pause">&#9654;&#65038;</button>
+    <div class="rightctrl">
+      <button id="speed" title="Playback speed" aria-label="Playback speed">1x</button>
+      <button id="play" class="iconbtn" title="Play / Pause" aria-label="Play or pause">&#9654;&#65038;</button>
+    </div>
   </header>
   <main>
     <p class="hint">Hover a word to see its meaning. Hold to stop the audio; release to play from that word.</p>
@@ -152,10 +162,26 @@
     const loadBtn = document.getElementById("loadBtn");
     const loading = document.getElementById("loading");
     const loadStatus = document.getElementById("loadStatus");
+    const speedBtn = document.getElementById("speed");
 
     let catalog = [];
     let WORD_TIMES = [];
     const bookById = (id) => catalog.find((b) => b.id === id);
+
+    // ---- Playback speed ----
+    const SPEEDS = [1, 1.25, 1.5, 1.75, 2];
+    let speed = parseFloat(localStorage.getItem("speed")) || 1;
+    if (!SPEEDS.includes(speed)) speed = 1;
+    function applySpeed() {
+      audio.playbackRate = speed;
+      speedBtn.textContent = `${speed}x`;
+    }
+    speedBtn.addEventListener("click", () => {
+      speed = SPEEDS[(SPEEDS.indexOf(speed) + 1) % SPEEDS.length];
+      localStorage.setItem("speed", String(speed));
+      applySpeed();
+    });
+    applySpeed();
 
     function wordStartTime(i) {
       const t = WORD_TIMES[i];
@@ -217,6 +243,7 @@
         audio.pause();
         audio.src = `/chapters/${slug}/audio.wav`;
         audio.load();
+        applySpeed();
         render(data);
         titleEl.textContent = `${b.name} ${chapter}`;
         document.title = `${b.name} ${chapter} \u2014 Hebrew Bible`;
