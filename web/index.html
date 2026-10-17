@@ -97,7 +97,7 @@
     padding: 5px 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.12);
     pointer-events: none; opacity: 0; display: none; z-index: 5;
   }
-  .word.active .anno { opacity: 1; display: block; }
+  .word.active .anno, .word:hover .anno { opacity: 1; display: block; }
   .word .gloss { bottom: calc(100% + 6px); font-weight: 600; }
   .word .grammar { top: calc(100% + 6px); color: var(--muted); }
   .hint {
@@ -113,7 +113,7 @@
     <button id="play" class="iconbtn" title="Play / Pause" aria-label="Play or pause">&#9654;&#65038;</button>
   </header>
   <main>
-    <p class="hint">Hold a word to stop the audio and see its meaning; release to play from that word.</p>
+    <p class="hint">Hover a word to see its meaning. Hold to stop the audio; release to play from that word.</p>
     <div id="text"></div>
   </main>
 
